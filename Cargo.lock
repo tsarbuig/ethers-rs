@@ -89,9 +89,9 @@ checksum = "23b62fc65de8e4e7f52534fb52b0f3ed04746ae267519eef2a83941e8085068b"
 
 [[package]]
 name = "arrayvec"
-version = "0.7.2"
+version = "0.7.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8da52d66c7071e2e3fa2a1e5c6d088fec47b593032b254f5e980de8ea54454d6"
+checksum = "d3fb67a6e08acf24fdeccbac2cb6ac4305825bd1f117462e0e6f2f193345ad56"
 
 [[package]]
 name = "ascii-canvas"
@@ -1383,7 +1383,7 @@ dependencies = [
 name = "ethers-core"
 version = "1.0.2"
 dependencies = [
- "arrayvec 0.7.2",
+ "arrayvec 0.7.8",
  "bincode",
  "bytes",
  "cargo_metadata",
@@ -2594,7 +2594,7 @@ version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "786393f80485445794f6043fd3138854dd109cc6c4bd1a6383db304c9ce9b9ce"
 dependencies = [
- "arrayvec 0.7.2",
+ "arrayvec 0.7.8",
  "auto_impl 1.0.1",
  "bytes",
  "ethereum-types",
@@ -2698,7 +2698,7 @@ version = "3.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2a7f3fcf5e45fc28b84dcdab6b983e77f197ec01f325a33f404ba6855afd1070"
 dependencies = [
- "arrayvec 0.7.2",
+ "arrayvec 0.7.8",
  "bitvec 1.0.0",
  "byte-slice-cast",
  "impl-trait-for-tuples",
